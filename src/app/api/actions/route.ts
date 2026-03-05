@@ -1,4 +1,5 @@
     // Using NextResponse.json(data) fixes the "never read" warning
+    export const runtime = 'edge';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 
